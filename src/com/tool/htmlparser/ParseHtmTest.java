@@ -45,7 +45,7 @@ public class ParseHtmTest {
         StringBuffer sb = new StringBuffer();  
         String line = null;  
         try {  
-            url = new URL("http://solr-11843.phx-os1.stratus.dev.ebay.com:8080/solr/uc4/select?q=data_subtask%3ATR_CLSFD_MP_REV_SRVC_PRFL&wt=xml&indent=true");  
+            url = new URL("http://solr-11843.phx-os1.stratus.dev.ebay.com:8080/solr/uc4/select?q=data_subtask%3ATR_CLSFD_MP_REV_SRVC_PRFL&wt=json&indent=true");  
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();  
             InputStream is = conn.getInputStream();  
             BufferedReader buffer = new BufferedReader(  

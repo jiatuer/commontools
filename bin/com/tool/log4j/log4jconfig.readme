@@ -1,0 +1,10 @@
+
+<servlet>
+<servlet-name>log4jinit</servlet-name>
+<servlet-class>com.ebay.dw.servlet.Log4JInit</servlet-class>
+<init-param>
+<param-name>log4j-config-file</param-name>
+<param-value>config\log4j.properties</param-value>
+</init-param>
+<load-on-startup>1</load-on-startup>
+</servlet>
