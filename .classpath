@@ -6,5 +6,11 @@
 	<classpathentry kind="lib" path="src/smtp.jar"/>
 	<classpathentry kind="lib" path="src/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="src/junit-4.5.jar"/>
+	<classpathentry kind="lib" path="src/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="G:/src_lib/HTMLParser-2.0-SNAPSHOT-bin/HTMLParser-2.0-SNAPSHOT/lib/filterbuilder.jar"/>
+	<classpathentry kind="lib" path="G:/src_lib/HTMLParser-2.0-SNAPSHOT-bin/HTMLParser-2.0-SNAPSHOT/lib/htmllexer.jar"/>
+	<classpathentry kind="lib" path="G:/src_lib/HTMLParser-2.0-SNAPSHOT-bin/HTMLParser-2.0-SNAPSHOT/lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="G:/src_lib/HTMLParser-2.0-SNAPSHOT-bin/HTMLParser-2.0-SNAPSHOT/lib/sitecapturer.jar"/>
+	<classpathentry kind="lib" path="G:/src_lib/HTMLParser-2.0-SNAPSHOT-bin/HTMLParser-2.0-SNAPSHOT/lib/thumbelina.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
