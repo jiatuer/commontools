@@ -12,5 +12,13 @@
 	<classpathentry kind="lib" path="G:/GitHub/commontools/src/jar/sitecapturer.jar"/>
 	<classpathentry kind="lib" path="G:/GitHub/commontools/src/jar/smtp.jar"/>
 	<classpathentry kind="lib" path="G:/GitHub/commontools/src/jar/thumbelina.jar"/>
+	<classpathentry kind="lib" path="src/jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="src/jar/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="src/jar/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="src/jar/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="src/jar/commons-lang.jar"/>
+	<classpathentry kind="lib" path="src/jar/commons-logging.jar"/>
+	<classpathentry kind="lib" path="src/jar/filterbuilder.jar"/>
+	<classpathentry kind="lib" path="src/jar/commons-configuration-1.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
