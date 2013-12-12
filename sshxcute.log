@@ -43,3 +43,396 @@ zj
 [23:26:12] INFO:    Now wait 5 seconds to begin next task ...
 [23:26:17] INFO:    Connection channel disconnect
 [23:26:17] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 10:15:48, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:15:48] INFO:    SSHExec initializing ...
+[10:15:48] INFO:    Session initialized and associated with user credential welcome123
+[10:15:48] INFO:    SSHExec initialized successfully
+[10:15:48] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[10:15:48] INFO:    SSH connection established
+[10:15:48] INFO:    Command is cd file
+[10:15:48] INFO:    Connection channel established succesfully
+[10:15:48] INFO:    Start to run command
+[10:15:48] INFO:    Connection channel closed
+[10:15:48] INFO:    Check if exec success or not ... 
+[10:15:48] INFO:    Execution failed while executing command: cd file
+[10:15:48] INFO:    Error message: bash: line 0: cd: file: No such file or directory
+[10:15:48] INFO:    Now wait 5 seconds to begin next task ...
+[10:15:53] INFO:    Connection channel disconnect
+[10:15:53] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 10:26:54, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:26:54] INFO:    SSHExec initializing ...
+[10:26:54] INFO:    Session initialized and associated with user credential welcome123
+[10:26:54] INFO:    SSHExec initialized successfully
+[10:26:54] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[10:26:55] INFO:    SSH connection established
+[10:26:55] INFO:    Command is cd file
+[10:26:55] INFO:    Connection channel established succesfully
+[10:26:55] INFO:    Start to run command
+[10:26:55] INFO:    Connection channel closed
+[10:26:55] INFO:    Check if exec success or not ... 
+[10:26:55] INFO:    Execution failed while executing command: cd file
+[10:26:55] INFO:    Error message: bash: line 0: cd: file: No such file or directory
+[10:26:55] INFO:    Now wait 5 seconds to begin next task ...
+[10:27:00] INFO:    Connection channel disconnect
+[10:27:00] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 10:27:08, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:27:08] INFO:    SSHExec initializing ...
+[10:27:08] INFO:    Session initialized and associated with user credential welcome123
+[10:27:08] INFO:    SSHExec initialized successfully
+[10:27:08] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[10:27:09] INFO:    SSH connection established
+[10:27:09] INFO:    Command is pwd
+[10:27:09] INFO:    Connection channel established succesfully
+[10:27:09] INFO:    Start to run command
+[10:27:09] INFO:    /home/oncall
+
+[10:27:09] INFO:    Connection channel closed
+[10:27:09] INFO:    Check if exec success or not ... 
+[10:27:09] INFO:    Execute successfully for command: pwd
+[10:27:09] INFO:    Now wait 5 seconds to begin next task ...
+[10:27:14] INFO:    Connection channel disconnect
+[10:27:14] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 10:59:02, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:59:02] INFO:    SSHExec initializing ...
+[10:59:02] INFO:    Session initialized and associated with user credential welcome123
+[10:59:02] INFO:    SSHExec initialized successfully
+[10:59:02] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[10:59:03] INFO:    SSH connection established
+[10:59:03] INFO:    Command is cd Mail 
+ pwd
+[10:59:03] INFO:    Connection channel established succesfully
+[10:59:03] INFO:    Start to run command
+[10:59:03] INFO:    /home/oncall/Mail
+
+[10:59:03] INFO:    Connection channel closed
+[10:59:03] INFO:    Check if exec success or not ... 
+[10:59:03] INFO:    Execute successfully for command: cd Mail 
+ pwd
+[10:59:03] INFO:    Now wait 5 seconds to begin next task ...
+[10:59:08] INFO:    Connection channel disconnect
+[10:59:08] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:01:57, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:01:57] INFO:    SSHExec initializing ...
+[14:01:57] INFO:    Session initialized and associated with user credential welcome123
+[14:01:57] INFO:    SSHExec initialized successfully
+[14:01:57] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:01:58] INFO:    SSH connection established
+[14:01:58] INFO:    Command is cd tmp 
+ ksh t1.ksh
+[14:01:58] INFO:    Connection channel established succesfully
+[14:01:58] INFO:    Start to run command
+[14:01:58] INFO:    123
+3
+
+[14:01:58] INFO:    Connection channel closed
+[14:01:58] INFO:    Check if exec success or not ... 
+[14:01:58] INFO:    Execute successfully for command: cd tmp 
+ ksh t1.ksh
+[14:01:58] INFO:    Now wait 5 seconds to begin next task ...
+[14:02:03] INFO:    Connection channel disconnect
+[14:02:03] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:07:53, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:07:53] INFO:    SSHExec initializing ...
+[14:07:53] INFO:    Session initialized and associated with user credential welcome123
+[14:07:53] INFO:    SSHExec initialized successfully
+[14:07:53] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:07:54] INFO:    SSH connection established
+[14:07:54] INFO:    Command is cd tmp 
+ ksh t1.ksh
+[14:07:54] INFO:    Connection channel established succesfully
+[14:07:54] INFO:    Start to run command
+[14:07:54] INFO:    123
+3
+
+[14:07:54] INFO:    2
+
+[14:07:54] INFO:    Connection channel closed
+[14:07:54] INFO:    Check if exec success or not ... 
+[14:07:54] INFO:    Execute successfully for command: cd tmp 
+ ksh t1.ksh
+[14:07:54] INFO:    Now wait 5 seconds to begin next task ...
+[14:07:59] INFO:    Connection channel disconnect
+[14:07:59] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:10:45, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:10:45] INFO:    SSHExec initializing ...
+[14:10:45] INFO:    Session initialized and associated with user credential welcome123
+[14:10:45] INFO:    SSHExec initialized successfully
+[14:10:45] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:10:46] INFO:    SSH connection established
+[14:10:46] INFO:    Command is cd tmp 
+ cd 1
+[14:10:46] INFO:    Connection channel established succesfully
+[14:10:46] INFO:    Start to run command
+[14:10:46] INFO:    Connection channel closed
+[14:10:46] INFO:    Check if exec success or not ... 
+[14:10:46] INFO:    Execution failed while executing command: cd tmp 
+ cd 1
+[14:10:46] INFO:    Error message: bash: line 1: cd: 1: No such file or directory
+[14:10:46] INFO:    Now wait 5 seconds to begin next task ...
+[14:10:51] INFO:    Connection channel disconnect
+[14:10:51] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:11:29, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:11:29] INFO:    SSHExec initializing ...
+[14:11:29] INFO:    Session initialized and associated with user credential welcome123
+[14:11:29] INFO:    SSHExec initialized successfully
+[14:11:29] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:11:30] INFO:    SSH connection established
+[14:11:30] INFO:    Command is cd tmp 
+ ksh t1.ksh
+[14:11:30] INFO:    Connection channel established succesfully
+[14:11:30] INFO:    Start to run command
+[14:11:30] INFO:    123
+3
+
+[14:11:30] INFO:    Connection channel closed
+[14:11:30] INFO:    Check if exec success or not ... 
+[14:11:30] INFO:    Execution failed while executing command: cd tmp 
+ ksh t1.ksh
+[14:11:30] INFO:    Error message: t1.ksh[5]: cd: 1: [No such file or directory]
+[14:11:30] INFO:    Now wait 5 seconds to begin next task ...
+[14:11:35] INFO:    Connection channel disconnect
+[14:11:35] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:12:29, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:12:29] INFO:    SSHExec initializing ...
+[14:12:29] INFO:    Session initialized and associated with user credential welcome123
+[14:12:29] INFO:    SSHExec initialized successfully
+[14:12:29] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:12:29] INFO:    SSH connection established
+[14:12:29] INFO:    Command is cd tmp 
+ ksh t1.ksh
+[14:12:29] INFO:    Connection channel established succesfully
+[14:12:29] INFO:    Start to run command
+[14:12:29] INFO:    123
+3
+
+[14:12:29] INFO:    3
+
+[14:12:29] INFO:    Connection channel closed
+[14:12:29] INFO:    Check if exec success or not ... 
+[14:12:29] INFO:    Execute successfully for command: cd tmp 
+ ksh t1.ksh
+[14:12:29] INFO:    Now wait 5 seconds to begin next task ...
+[14:12:34] INFO:    Connection channel disconnect
+[14:12:34] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:22:04, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:22:04] INFO:    SSHExec initializing ...
+[14:22:04] INFO:    Session initialized and associated with user credential welcome123
+[14:22:04] INFO:    SSHExec initialized successfully
+[14:22:04] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:22:04] INFO:    SSH connection established
+[14:22:04] INFO:    Command is cd 1 
+ more 1
+[14:22:05] INFO:    Connection channel established succesfully
+[14:22:05] INFO:    Start to run command
+
+=============== [2013/11/22 14:23:17, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:23:17] INFO:    SSHExec initializing ...
+[14:23:17] INFO:    Session initialized and associated with user credential welcome123
+[14:23:17] INFO:    SSHExec initialized successfully
+[14:23:17] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:23:17] INFO:    SSH connection established
+[14:23:17] INFO:    Command is cd 1
+[14:23:17] INFO:    Connection channel established succesfully
+[14:23:17] INFO:    Start to run command
+[14:23:17] INFO:    Connection channel closed
+[14:23:17] INFO:    Check if exec success or not ... 
+[14:23:17] INFO:    Execution failed while executing command: cd 1
+[14:23:17] INFO:    Error message: bash: line 0: cd: 1: No such file or directory
+[14:23:17] INFO:    Now wait 5 seconds to begin next task ...
+[14:23:22] INFO:    Connection channel disconnect
+[14:23:22] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:23:41, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:23:41] INFO:    SSHExec initializing ...
+[14:23:41] INFO:    Session initialized and associated with user credential welcome123
+[14:23:41] INFO:    SSHExec initialized successfully
+[14:23:41] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:23:41] INFO:    SSH connection established
+[14:23:41] INFO:    Command is more 1
+[14:23:41] INFO:    Connection channel established succesfully
+[14:23:41] INFO:    Start to run command
+
+=============== [2013/11/22 14:24:36, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:24:36] INFO:    SSHExec initializing ...
+[14:24:36] INFO:    Session initialized and associated with user credential welcome123
+[14:24:36] INFO:    SSHExec initialized successfully
+[14:24:36] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:24:36] INFO:    SSH connection established
+[14:24:36] INFO:    Command is mkdir 1
+[14:24:36] INFO:    Connection channel established succesfully
+[14:24:36] INFO:    Start to run command
+[14:24:37] INFO:    Connection channel closed
+[14:24:37] INFO:    Check if exec success or not ... 
+[14:24:37] INFO:    Execute successfully for command: mkdir 1
+[14:24:37] INFO:    Now wait 5 seconds to begin next task ...
+[14:24:42] INFO:    Connection channel disconnect
+[14:24:42] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:24:54, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:24:54] INFO:    SSHExec initializing ...
+[14:24:54] INFO:    Session initialized and associated with user credential welcome123
+[14:24:54] INFO:    SSHExec initialized successfully
+[14:24:54] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:24:54] INFO:    SSH connection established
+[14:24:54] INFO:    Command is rm 1
+[14:24:54] INFO:    Connection channel established succesfully
+[14:24:54] INFO:    Start to run command
+[14:24:55] INFO:    Connection channel closed
+[14:24:55] INFO:    Check if exec success or not ... 
+[14:24:55] INFO:    Execution failed while executing command: rm 1
+[14:24:55] INFO:    Error message: rm: cannot remove `1': Is a directory
+[14:24:55] INFO:    Now wait 5 seconds to begin next task ...
+[14:25:00] INFO:    Connection channel disconnect
+[14:25:00] INFO:    SSH connection shutdown
+
+=============== [2013/11/22 14:27:25, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:27:25] INFO:    SSHExec initializing ...
+[14:27:25] INFO:    Session initialized and associated with user credential welcome123
+[14:27:25] INFO:    SSHExec initialized successfully
+[14:27:25] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:27:26] INFO:    SSH connection established
+[14:27:26] INFO:    Command is cd tmp 
+ more 1
+[14:27:26] INFO:    Connection channel established succesfully
+[14:27:26] INFO:    Start to run command
+
+=============== [2013/11/22 14:27:59, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:27:59] INFO:    SSHExec initializing ...
+[14:27:59] INFO:    Session initialized and associated with user credential welcome123
+[14:27:59] INFO:    SSHExec initialized successfully
+[14:27:59] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[14:27:59] INFO:    SSH connection established
+[14:27:59] INFO:    Command is cd tmp 
+ more t1.ksh
+[14:28:00] INFO:    Connection channel established succesfully
+[14:28:00] INFO:    Start to run command
+
+=============== [2013/12/05 23:15:53, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[23:15:53] INFO:    SSHExec initializing ...
+[23:15:53] INFO:    Session initialized and associated with user credential welcome123
+[23:15:53] INFO:    SSHExec initialized successfully
+[23:15:53] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[23:15:53] ERROR:   Connect fails with the following exception: com.jcraft.jsch.JSchException: verify: false
+[23:15:53] ERROR:   session is down
+[23:15:53] INFO:    SSH connection shutdown
+
+=============== [2013/12/05 23:16:49, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[23:16:49] INFO:    SSHExec initializing ...
+[23:16:49] INFO:    Session initialized and associated with user credential welcome123
+[23:16:49] INFO:    SSHExec initialized successfully
+[23:16:49] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[23:16:50] INFO:    SSH connection established
+[23:16:50] INFO:    Command is cd ../jiazhong 
+ ksh test.ksh
+[23:16:50] INFO:    Connection channel established succesfully
+[23:16:50] INFO:    Start to run command
+[23:16:50] INFO:    1
+
+[23:16:50] INFO:    Connection channel closed
+[23:16:50] INFO:    Check if exec success or not ... 
+[23:16:50] INFO:    Execute successfully for command: cd ../jiazhong 
+ ksh test.ksh
+[23:16:50] INFO:    Now wait 5 seconds to begin next task ...
+[23:16:55] INFO:    Connection channel disconnect
+[23:16:55] INFO:    SSH connection shutdown
+
+=============== [2013/12/05 23:17:28, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[23:17:28] INFO:    SSHExec initializing ...
+[23:17:28] INFO:    Session initialized and associated with user credential welcome123
+[23:17:28] INFO:    SSHExec initialized successfully
+[23:17:28] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[23:17:28] INFO:    SSH connection established
+[23:17:28] INFO:    Command is cd xx
+[23:17:29] INFO:    Connection channel established succesfully
+[23:17:29] INFO:    Start to run command
+[23:17:29] INFO:    Connection channel closed
+[23:17:29] INFO:    Check if exec success or not ... 
+[23:17:29] INFO:    Execution failed while executing command: cd xx
+[23:17:29] INFO:    Error message: bash: line 0: cd: xx: No such file or directory
+[23:17:29] INFO:    Now wait 5 seconds to begin next task ...
+[23:17:34] INFO:    Connection channel disconnect
+[23:17:34] INFO:    SSH connection shutdown
+
+=============== [2013/12/05 23:55:31, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[23:55:31] INFO:    SSHExec initializing ...
+[23:55:31] INFO:    Session initialized and associated with user credential welcome123
+[23:55:31] INFO:    SSHExec initialized successfully
+[23:55:31] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[23:55:32] INFO:    SSH connection established
+[23:55:32] INFO:    Command is cd xx
+[23:55:32] INFO:    Connection channel established succesfully
+[23:55:32] INFO:    Start to run command
+[23:55:32] INFO:    Connection channel closed
+[23:55:32] INFO:    Check if exec success or not ... 
+[23:55:32] INFO:    Execution failed while executing command: cd xx
+[23:55:32] INFO:    Error message: bash: line 0: cd: xx: No such file or directory
+[23:55:32] INFO:    Now wait 5 seconds to begin next task ...
+[23:55:37] INFO:    Connection channel disconnect
+[23:55:37] INFO:    SSH connection shutdown
+
+=============== [2013/12/05 23:55:57, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[23:55:57] INFO:    SSHExec initializing ...
+[23:55:57] INFO:    Session initialized and associated with user credential welcome123
+[23:55:57] INFO:    SSHExec initialized successfully
+[23:55:57] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[23:55:57] INFO:    SSH connection established
+[23:55:57] INFO:    Command is echo 1
+[23:55:57] INFO:    Connection channel established succesfully
+[23:55:57] INFO:    Start to run command
+[23:55:57] INFO:    1
+
+[23:55:57] INFO:    Connection channel closed
+[23:55:57] INFO:    Check if exec success or not ... 
+[23:55:57] INFO:    Execute successfully for command: echo 1
+[23:55:57] INFO:    Now wait 5 seconds to begin next task ...
+[23:56:02] INFO:    Connection channel disconnect
+[23:56:02] INFO:    SSH connection shutdown
+
+=============== [2013/12/05 23:56:51, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[23:56:51] INFO:    SSHExec initializing ...
+[23:56:51] INFO:    Session initialized and associated with user credential welcome123
+[23:56:51] INFO:    SSHExec initialized successfully
+[23:56:51] INFO:    SSHExec trying to connect oncall@10.249.68.89
+[23:56:52] INFO:    SSH connection established
+[23:56:52] INFO:    Command is cd sfxfs
+[23:56:52] INFO:    Connection channel established succesfully
+[23:56:52] INFO:    Start to run command
+[23:56:52] INFO:    Connection channel closed
+[23:56:52] INFO:    Check if exec success or not ... 
+[23:56:52] INFO:    Execution failed while executing command: cd sfxfs
+[23:56:52] INFO:    Error message: bash: line 0: cd: sfxfs: No such file or directory
+[23:56:52] INFO:    Now wait 5 seconds to begin next task ...
+[23:56:57] INFO:    Connection channel disconnect
+[23:56:57] INFO:    SSH connection shutdown

@@ -19,6 +19,6 @@
 	<classpathentry kind="lib" path="src/jar/sitecapturer.jar"/>
 	<classpathentry kind="lib" path="src/jar/smtp.jar"/>
 	<classpathentry kind="lib" path="src/jar/thumbelina.jar"/>
-	<classpathentry kind="lib" path="F:/lib/sshxcute-1.0.jar"/>
+	<classpathentry kind="lib" path="src/jar/sshxcute-1.0.jar" sourcepath="/sshxcute"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
